@@ -1,5 +1,6 @@
 provider "aws" {
-  region = "ap-northeast-1"
+  profile = "sandbox"
+  region  = "ap-northeast-1"
 }
 
 data "aws_ami" "ubuntu" {
